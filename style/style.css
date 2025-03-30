@@ -1,0 +1,251 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #f1f1de;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+button {
+  height: 40px;
+  border-radius: 30px;
+  background-color: #a05b4e;
+  color: var(--primary-color);
+  padding: 13px 21px 12px;
+  text-transform: uppercase;
+  border: none;
+}
+a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14.4px;
+  letter-spacing: 0.6px;
+}
+header p {
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin: 8px auto;
+}
+.header-block {
+  height: 800px;
+  background-color: #1a1818b9;
+}
+.header-block nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+}
+.menu:first-child {
+  margin-left: 161px;
+}
+.menu:last-child {
+  margin-right: 30px;
+}
+.menu a {
+  color: #1a1818;
+}
+.header-title {
+  text-align: center;
+  margin-top: 297px;
+}
+.header-title h2 {
+  font-size: 54px;
+  line-height: 60.75px;
+color: var(--primary-color);
+  margin-bottom: 26px;
+}
+
+main h1 {
+  font-size: 44px;
+  line-height: 49.5px;
+    margin: 51px 214px 63px 30px;
+}
+.main-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  position: relative;
+}
+.item-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+.options {
+  display: flex;
+  gap: 100px;
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 19.2px;
+  }
+.colorblock {
+  display: flex;
+  position: absolute;
+  top: 19px;
+  right: 19px;
+  gap: 6px;
+}
+.item-craft {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 0.6px;
+    padding: 5px 9px;
+  }
+
+.content,
+.content-revers {
+  display: flex;
+  margin: 100px 0;
+}
+.content h2,
+.content-revers h2 {
+  font-size: 54px;
+  line-height: 60.75px;
+margin-bottom: 14px;
+}
+.content p,
+.content-revers p {
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+  margin-bottom: 28px;
+}
+.content div:first-child {
+  width: 53%;
+  padding: 164px 117px 200px 30px;
+}
+content div:last-child {
+  width: 47%;
+}
+.content-revers div:first-child {
+  width: 47%;
+}
+.content-revers div:last-child {
+  width: 53%;
+  padding: 155px 150px 164px 30px;
+}
+
+.product {
+  height: 800px;
+  background-image: url(../image/IMAGE\ \(12\).png);
+  background-size: cover;
+  position: relative;
+  margin-bottom: 40px;
+}
+.product-exellence {
+  position: absolute;
+  top: 34px;
+  left: 30px;
+}
+.product-exellence h2 {
+  font-size: 49px;
+  line-height: 54px;
+  letter-spacing: 1.08px;
+  color: var(--primary-color);
+  margin-bottom: 13px;
+}
+.product-exellence p {
+  width: 362px;
+  height: 116px;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+  color: var(--primary-color);
+  margin-bottom: 27px;
+}
+.row {
+  width: 1400px;
+  display: flex;
+  gap: 40px;
+  font-size: 12px;
+  line-height: 14.4px;
+  letter-spacing: 0.6px;
+}
+.card {
+  display: flex;
+  gap: 30px;
+  height: 694px;
+  margin: 39px 0;
+}
+.card div:first-child {
+  width: 50%;
+  background-size: cover;
+  background-image: url(../image/IMAGE\ \(13\).png);
+}
+.card div:last-child {
+  width: 50%;
+  background-size: cover;
+  background-image: url(../image/IMAGE\ \(14\).png);
+}
+.card p {
+  font-size: 53px;
+  line-height: 54px;
+  letter-spacing: 1.08px;
+  color: var(--primary-color);
+  margin-left: 30px;
+  margin-bottom: 24px;
+  margin-top: 428px;
+}
+.card button {
+  margin-left: 30px;
+}
+footer {
+  background-color: #a05b4e;
+  color: var(--secondary-color);
+  margin-top: 100px;
+}
+.footer-info {
+  padding: 221px 30px 112px 30px;
+  text-align: center;
+  border-bottom: 1px solid var(--secondary-color);
+}
+.footer-info p {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+.newsletter {
+  margin-top: 47px;
+  margin-bottom: 29px;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+}
+.footer-info button {
+  width: 493px;
+  border: 1px solid var(--secondary-color);
+}
+.footer-bottom {
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a {
+  color: var(--secondary-color);
+}
