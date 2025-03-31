@@ -217,11 +217,12 @@ footer {
   background-color: #a05b4e;
   color: var(--secondary-color);
   margin-top: 100px;
+  position: relative;
 }
 .footer-info {
   padding: 221px 30px 112px 30px;
   text-align: center;
-  border-bottom: 1px solid var(--secondary-color);
+  /* border-bottom: 1px solid var(--secondary-color); */
 }
 .footer-info p {
   font-size: 12px;
@@ -248,4 +249,12 @@ footer {
 }
 footer a {
   color: var(--secondary-color);
+}
+.footer-line{
+  width: 1140px;
+  height: 1px;
+  position: absolute;
+  bottom: 120px;
+  left: 30px;
+  background-color: var(--secondary-color);
 }
